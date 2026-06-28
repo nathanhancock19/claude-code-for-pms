@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.mcp.json
+*.local.json
+scripts/provision/pm_instances.json
+
+# Telegram bot runtime state
+scripts/agent/.bot_state.json
+scripts/agent/diary_buffer/
+
+# Runtime logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Headless browser profiles
+.edge-headless-profile/
+.chrome-headless-profile/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Internal strategy/planning docs — keep local, never publish
+plans/

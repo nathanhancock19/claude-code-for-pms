@@ -1,0 +1,4 @@
+# Dunsteel operations brain - Telegram interface
+# The brain itself (agent_core) shells out to the `claude` CLI and needs no
+# Python packages. These are only for the Telegram bot.
+python-telegram-bot>=21.0

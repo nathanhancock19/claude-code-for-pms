@@ -1,0 +1,6 @@
+{
+  "_note": "Copy to pm_instances.json (gitignored) and fill in. Maps each PM key to their workspace checkout on the VPS. Bot token and chat id are read from each workspace's own .env, so no secret lives in this file.",
+  "alex": { "workspace": "/opt/dunsteel/alex" },
+  "sam": { "workspace": "/opt/dunsteel/sam" },
+  "jordan": { "workspace": "/opt/dunsteel/jordan" }
+}
